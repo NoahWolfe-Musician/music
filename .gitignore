@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Build outputs
+dist/
+build/
+target/
+*.log
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Blockchain
+blockchain/target/
+blockchain/Cargo.lock
+
+# AI model files
+ai/models/*.h5
+ai/models/*.pt
+ai/models/*.pth
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Package files
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# IPFS
+.ipfs/
+
+# Solana
+test-ledger/
+.anchor/
+
+# Docker
+.docker/
